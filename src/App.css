@@ -12,6 +12,11 @@ body {
   color: var(--mainDark) !important;
 }
 
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
 .text-title {
   font-family: "Permanent Marker", cursive;
   letter-spacing: 0.3rem;
