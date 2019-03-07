@@ -85,12 +85,12 @@ export const storeProducts = [
   },
   {
     id: 8,
-    title: "LG V40 ThinQ",
-    img: "img/product-8.png",
-    price: 949.99,
-    company: "LG",
+    title: "Sony Xperia XZ3",
+    img: "img/product-9.png",
+    price: 799.99,
+    company: "SONY",
     info:
-      "LG continues to release great phones that appreciate over time and in a crowded flagship market, the LG V40 may have a tough time finding its place as well. While Huawei was one of the first major brands to launch a phone with three rear cameras, LG bumped that up by announcing a phone with five total cameras. Three are found on the back and two are on the front. LG has always stood apart from the others with its second rear camera having a true wide-angle lens for great landscape and large room photography. The new LG V40 keeps the wide-angle camera while also adding a telephoto lens to the standard lens option so you can do just about anything you want.",
+      "Sony is back on the 10 best list with its best smartphone in years in the form of the Xperia XZ3. I've been using one for a few weeks and even though I am not happy with the fingerprint scanner placement it is still a compelling smartphone. The Sony Xperia XZ3 matches up on the spec sheet closely with the Google Pixel 3 and 3 XL with 4GB RAM, 64GB internal storage, Android 9 Pie, Qualcomm Snapdragon 845, 3300 mAh battery, wireless charging, and IP68 dust and water resistance. The Xperia XZ3 has a gorgeous curved design with lovely color options and microSD storage expansion options. The 6-inch OLED screen looks great, especially when viewing video content and experiencing the HDR up-conversion technology.",
     inCart: false,
     count: 0,
     total: 0
@@ -99,12 +99,12 @@ export const storeProducts = [
 
 export const detailProduct = {
   id: 9,
-  title: "Sony Xperia XZ3",
-  img: "img/product-9.png",
-  price: 799.99,
-  company: "SONY",
+  title: "LG V40 ThinQ",
+  img: "img/product-8.png",
+  price: 949.99,
+  company: "LG",
   info:
-    "Sony is back on the 10 best list with its best smartphone in years in the form of the Xperia XZ3. I've been using one for a few weeks and even though I am not happy with the fingerprint scanner placement it is still a compelling smartphone. The Sony Xperia XZ3 matches up on the spec sheet closely with the Google Pixel 3 and 3 XL with 4GB RAM, 64GB internal storage, Android 9 Pie, Qualcomm Snapdragon 845, 3300 mAh battery, wireless charging, and IP68 dust and water resistance. The Xperia XZ3 has a gorgeous curved design with lovely color options and microSD storage expansion options. The 6-inch OLED screen looks great, especially when viewing video content and experiencing the HDR up-conversion technology.",
+    "LG continues to release great phones that appreciate over time and in a crowded flagship market, the LG V40 may have a tough time finding its place as well. While Huawei was one of the first major brands to launch a phone with three rear cameras, LG bumped that up by announcing a phone with five total cameras. Three are found on the back and two are on the front. LG has always stood apart from the others with its second rear camera having a true wide-angle lens for great landscape and large room photography. The new LG V40 keeps the wide-angle camera while also adding a telephoto lens to the standard lens option so you can do just about anything you want.",
   inCart: false,
   count: 0,
   total: 0
