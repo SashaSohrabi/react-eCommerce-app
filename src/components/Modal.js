@@ -23,10 +23,10 @@ class Modal extends Component {
                       id="modal"
                       className="col-8 mx-auto col-md-6 col-lg-4 text-center text-capitalize"
                     >
-                      <h5 className="p-3">item added to the cart</h5>
-                      <img src={img} alt="product" className="img-fluid mb-3" />
-                      <h5 className="text-muted p-2">price : $ {price}</h5>
-                      <div className="p-3">
+                      <h5 className="p-2">item added to the cart</h5>
+                      <img src={img} alt="product" className="img-fluid mb-2" />
+                      <h5 className="text-muted">price : $ {price}</h5>
+                      <div className="p-1">
                         <Link to="/">
                           <ButtonContainer onClick={() => closeModal()}>
                             store
