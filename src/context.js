@@ -85,9 +85,21 @@ class ProductProvider extends Component {
   };
 
   clearCart = () => {
-    console.log("cart was cleared");
+    const confirmation = window.confirm("Do you really want to clear cart?");
+    if (confirmation) {
+      this.setState(
+        () => {
+          return {
+            cart: []
+          };
+        },
+        () => {
+          this.storeProducts();
+          this.addTotals();
+        }
+      );
+    }
   };
-
   addTotals = () => {
     let subTotal = 0;
     this.state.cart.map(item => (subTotal += item.total));
