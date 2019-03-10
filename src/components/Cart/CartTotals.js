@@ -6,7 +6,7 @@ function CartTotals({ value }) {
   return (
     <React.Fragment>
       <div className="container">
-        <div className="col-10 mt-2 mx-auto col-sm-8 text-capitalize text-center">
+        <div className="col-10 my-5  mx-auto col-sm-8 text-capitalize text-center">
           <Link to="/">
             <button
               className="btn btn-outline-danger text-uppercase mb-3 px-5"
